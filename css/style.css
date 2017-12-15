@@ -7,3 +7,16 @@ h1{
 h2{
     color:red;
 }
+button{
+    background-color:cyan;
+    border-radius: 10px 10px;
+    padding: 10px 20px;
+    border: turquoise solid 2px;
+}
+a{
+    text-decoration:none;
+}
+a:hover{
+    transition: ease-out 0.25s;
+    color:blue;
+}
