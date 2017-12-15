@@ -16,7 +16,7 @@
 		<img id="img4" src="img/img4.png">
 		<img id="img5" src="img/img5.png">
 		<img id="img6" src="img/img6.png">
-		<img id="imgfinal" src="img/imgfinal.png">
+		<img id="imgfinal" src="img/imgfinal.jpg">
 		<button id="button">Cliquez ici !</button>
 	</section>
 
