@@ -22,12 +22,13 @@
 
 	<section>
 		<h2>Notre équipe</h2>
-		<ul>
+		<!-- <ul>
 			<li>Valentin</li>
 			<li>Thibaut</li>
 			<li>Peter</li>
 			<li>Gerard</li>
-		</ul>
+		</ul> -->
+		<?php include("list.php")?>
 	</section>
 
 	<section>
