@@ -10,13 +10,13 @@
 <main>
 	<section>
 		<h1>Schéma Développeurs Front - Back </h1>
-		<img src="img/img1.png">
-		<img src="img/img2.png">
-		<img src="img/img3.png">
-		<img src="img/img4.png">
-		<img src="img/img5.png">
-		<img src="img/img6.png">
-		<img src="img/imgfinal.png">
+		<img id="img1" src="img/img1.png">
+		<img id="img2" src="img/img2.png">
+		<img id="img3" src="img/img3.png">
+		<img id="img4" src="img/img4.png">
+		<img id="img5" src="img/img5.png">
+		<img id="img6" src="img/img6.png">
+		<img id="imgfinal" src="img/imgfinal.png">
 		<button id="button">Cliquez ici !</button>
 	</section>
 
@@ -24,7 +24,7 @@
 		<h2>Notre équipe</h2>
 		<ul>
 			<li>Valentin</li>
-			<li>Thibaud</li>
+			<li>Thibaut</li>
 			<li>Peter</li>
 			<li>Gerard</li>
 		</ul>
