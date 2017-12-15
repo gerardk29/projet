@@ -3,7 +3,7 @@
 <head>
 	<title>Projet équipe sous Git</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 
@@ -29,7 +29,7 @@
 
 </main>
 
-<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 
 </body>
 </html>
