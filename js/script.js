@@ -1,20 +1,20 @@
 /* JS */
 console.log("hello") ;
 
-var img1 = document.getElementsById("img1");
-var img2 = document.getElementsById("img2");
-var img3 = document.getElementsById("img3");
-var img4 = document.getElementsById("img4");
-var img5 = document.getElementsById("img5");
-var img6 = document.getElementsById("img6");
-var img7 = document.getElementsById("imgfinal");
+var img1 = document.getElementById("img1");
+var img2 = document.getElementById("img2");
+var img3 = document.getElementById("img3");
+var img4 = document.getElementById("img4");
+var img5 = document.getElementById("img5");
+var img6 = document.getElementById("img6");
+var img7 = document.getElementById("imgfinal");
 
 var imageActive = false; 
 
 var buttonImage = document.getElementById("button");
 
 
-buttonImage.addEventListener(click,function(){
+buttonImage.addEventListener("click",function(){
 	imageActive = true;
 
 	if (imageActive == img1){
