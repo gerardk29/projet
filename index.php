@@ -7,28 +7,33 @@
 </head>
 <body>
 
+<?php
+$imageActive = '';
+?>
+
 <main>
 	<section>
 		<h1>Schéma Développeurs Front - Back </h1>
-		<img id="img1" src="img/img1.png">
-		<img id="img2" src="img/img2.png">
-		<img id="img3" src="img/img3.png">
-		<img id="img4" src="img/img4.png">
-		<img id="img5" src="img/img5.png">
-		<img id="img6" src="img/img6.png">
+
+<?php
+		for ($i = 1; $i < 7; $i++)
+		{
+			echo
+<<<CODEHTML
+<img id="img$i" src="img/img$i.png">
+CODEHTML;
+
+		}
+
+?>
 		<img id="imgfinal" src="img/imgfinal.jpg">
 		<button id="button">Cliquez ici !</button>
 	</section>
 
 	<section>
 		<h2>Notre équipe</h2>
-		<!-- <ul>
-			<li>Valentin</li>
-			<li>Thibaut</li>
-			<li>Peter</li>
-			<li>Gerard</li>
-		</ul> -->
-		<?php include("list.php")?>
+		
+		<?php include("list.php");?>
 	</section>
 
 	<section>
