@@ -9,13 +9,15 @@ var img5 = document.getElementById("img5");
 var img6 = document.getElementById("img6");
 var img7 = document.getElementById("imgfinal");
 
-var imageActive = false; 
+var imageActive = img1; 
 
 var buttonImage = document.getElementById("button");
 
 
 buttonImage.addEventListener("click",function(){
-	imageActive = true;
+	console.log("ok");
+	
+
 
 	if (imageActive == img1){
 		imageActive = img2;
